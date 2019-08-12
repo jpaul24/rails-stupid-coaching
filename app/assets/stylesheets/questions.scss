@@ -1,0 +1,49 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url("https://fonts.googleapis.com/css?family=Blinker&display=swap");
+$primary: #8BC8BB;
+
+body {
+  margin: 0;
+  font-family: 'Blinker', sans-serif;
+}
+
+.container {
+  margin-top: 100px;
+  text-align: center;
+  p {
+    font-size: 24px;
+  }
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  background: $primary;
+  h1 {
+    font-size: 60px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border-radius: 2px;
+
+}
+
+.submit {
+  width: 100px;
+  height: 48px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(42, 142, 255);
+}
+
+.question {
+  width: 200px;
+  height: 40px;
+}
